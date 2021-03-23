@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>YouTube UI</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="logo.png" alt="YouTube Logo" class="youtube-logo" />
+    </a>
+    <form class="search-bar">
+      <input class="search-input" type="search" placeholder="Search" aria-label="Search" />
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" />
+      </button>
+    </form>
+    
+    <div class="menu-icons">
+      <ul>
+      <li><a href="#">
+        <img src="video-plus.svg" alt="Upload Video" /></a>
+        <div class="sub-menu-1">
+            <ul>
+              <li><a href="#">create</a></li>
+            </ul>
+        </div>
+      </li>
+      <li>
+      <a href="#">
+        <img src="apps.svg" alt="Apps" /></a>
+        <div class="sub-menu-2">
+            <ul>
+              <li><a href="#">YouTube Tv</a></li>
+              <li><a href="#">YouTube Music</a></li>
+              <li><a href="#">YouTube kids</a></li>
+              <li><a href="#">Creator Academy</a></li>
+              <li><a href="#">YouTube for Artists</a></li>
+            </ul>
+        </div>
+      </li>
+      <li>
+      <a href="#">
+        <img src="bell.svg" alt="Notifications" /></a>
+        <div class="sub-menu-1">
+          <ul>
+            <li><a href="#">Notifications</a></li>
+          </ul>
+        </div>
+      </li>
+    <li>
+      <a href="#">
+        <img class="menu-channel-icon" src="http:///unsplash.it/36/36?gravity=center" alt="Your Channel" /></a>
+        <div class="sub-menu-2">
+          <ul>
+            <li><a href="#">Your Channel</a></li>
+            <li><a href="#">Language:English</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">help</a></li>
+            <li><a href="#">Signout</a></li>
+          </ul>
+      </div>
+    </li>
+    </ul>
+    </div>
+  
+    
+  </header>
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">All</button>
+      <button class="category">Sports</button>
+      <button class="category">Anime</button>
+      <button class="category">Songs</button>
+      <button class="category">History</button>
+      <button class="category">Wild</button>
+      <button class="category">Food</button>
+      <button class="category">Cars</button>
+      <button class="category">Space</button>
+      <button class="category">Cartoon</button>
+    </section>
+  </div>
+  <div class="videos">
+    <section class="video-section">
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/7pG0CsFYiFI" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Pubg</a>
+            <a href="#" class="video-channel-name">Levinho</a>
+            <div class="video-metadata">
+              <span>13K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail">
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/DcDL6EQaZBg" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">bloopers</a>
+            <a href="#" class="video-channel-name">Hotstar</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/UHX-JPknoWM" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Online Class</a>
+            <a href="#" class="video-channel-name">Sothanaigal</a>
+            <div class="video-metadata">
+              <span>16K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/7S_tz1z_5bA" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Mysql Tutorial</a>
+            <a href="#" class="video-channel-name">DBMS</a>
+            <div class="video-metadata">
+              <span>122K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail">
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/uOrvWPMZjQo" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Thor Ragnarok</a>
+            <a href="#" class="video-channel-name">Bestclips</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/DzSisUAKzGs" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Inhuman Entity</a>
+            <a href="#" class="video-channel-name">Llama Arts</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="video-section">
+      <h2 class="video-section-title">
+        Special Section
+        <button class="video-section-title-close">&times;</button>
+      </h2>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/OTsOIpHd7_M" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Maara</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/U0tOvqAmcb8" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Teddy</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/6LD30ChPsSs" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">96</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/8Kol5RFXfCM" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">SOK</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/Y-PPsW68gBc" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Sarvam</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/zsaff26T4Wg" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">kanna Veesi</a>
+            <a href="#" class="video-channel-name">Music</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="video-section">
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/WCh5F0gd5mk" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">beyblade</a>
+            <a href="#" class="video-channel-name">Beyblade official</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail">
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/SBJ8tBfcKFM" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Shin chan</a>
+            <a href="#" class="video-channel-name">Cartoon</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/Lcp2lrZhC6E" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Tom and jerry</a>
+            <a href="#" class="video-channel-name">Cartoon</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/xLNjYwMToKk" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">JAckie Chan</a>
+            <a href="#" class="video-channel-name">Cartoon</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/km61WoqDOEU" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Scooby Doo</a>
+            <a href="#" class="video-channel-name">Cartoon</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" >
+          <iframe class="thumbnail-image" src="https://www.youtube.com/embed/qlOklZ_Hdso" ></iframe>
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Dragon Booster</a>
+            <a href="#" class="video-channel-name">Cartoon</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
